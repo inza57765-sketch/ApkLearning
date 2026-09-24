@@ -11,3 +11,9 @@ jobs:
       - name: "execution"
         run: echo "Salut je suis github auto-bot"
 
+      - name: "Afficher mon nom"
+        run: echo "Salut CyberTchak"
+
+      - name: "Dire que tu fonctionne sur Ubuntu"
+        run: echo "je fonctionne sur ubuntu"
+
