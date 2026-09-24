@@ -1,4 +1,4 @@
-name: Mon premier robot
+name: "YAML Learning"
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  hello:
-    runs-on: ubuntu-latest
-
+  name: "my .ylm test"
+    run-on: ubuntu-latest
     steps:
-      - name: Dire bonjour
-        run: echo "🤖 Salut CYBER TchaK !"
+      - name: "Dire bonjour"
+        run: echo "Bonjour"
+
