@@ -1,0 +1,14 @@
+nane: "Cyber Bot"
+
+  on:
+    push:
+      branches:
+        - main
+
+jobs:
+   salut:
+     run-on: ubuntu-latest
+     steps:
+       - name: "Dire bonjour"
+         run: echo "Bonjpur je suis <Cyber Bot>"
+
