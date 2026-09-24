@@ -7,7 +7,7 @@ jobs:
   hello:
     runs-on: ubuntu-latest
 
-    steps: salutation
+    steps:
       - name: "execution"
         run: echo "Salut je suis github auto-bot"
 
